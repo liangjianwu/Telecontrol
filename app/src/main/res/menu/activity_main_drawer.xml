@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_music" android:icon="@android:drawable/ic_menu_camera"
+            android:title="Music" />
+        <item android:id="@+id/nav_gallery" android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item android:id="@+id/nav_slideshow" android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="Slideshow" />
+        <item android:id="@+id/nav_settting" android:icon="@android:drawable/ic_menu_manage"
+            android:title="Setting" />
+    </group>
+
+    <item android:title="Phone List">
+        <menu>
+            <item android:id="@+id/nav_p1" android:icon="@android:drawable/ic_menu_share"
+                android:title="Share" />
+            <item android:id="@+id/nav_p2" android:icon="@android:drawable/ic_menu_send"
+                android:title="Send" />
+            <item android:id="@+id/nav_p3" android:icon="@android:drawable/ic_menu_share"
+                android:title="Share" />
+            <item android:id="@+id/nav_p4" android:icon="@android:drawable/ic_menu_send"
+                android:title="Send" />
+            <item android:id="@+id/nav_p5" android:icon="@android:drawable/ic_menu_share"
+                android:title="Share" />
+            <item android:id="@+id/nav_p6" android:icon="@android:drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
